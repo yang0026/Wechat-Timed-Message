@@ -8,7 +8,7 @@ on:
         description: 'Delayed time (Optional) 可选延迟时间'
         required: false
   schedule:
-    - cron: '0 2 21 * *' # change here for `cron`; Schedule on CST 10 during 20th day of every month.
+    - cron: '1 * * * *' # change here for `cron`; Schedule on CST 10 during 20th day of every month.
 
 jobs:
   bot:
